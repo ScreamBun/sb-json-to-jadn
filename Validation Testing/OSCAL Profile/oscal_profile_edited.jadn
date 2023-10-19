@@ -5,7 +5,7 @@
     "exports": ["Root", "Profile"],
     "config": {
       "$MaxBinary": 255,
-      "$MaxString": 555,
+      "$MaxString": 5555,
       "$MaxElements": 500,
       "$Sys": "$",
       "$TypeName": "^[A-Za-z][-$A-Za-z0-9]{0,63}$",
@@ -15,7 +15,7 @@
   },
   "types": [
     ["Root", "Record", [], "", [
-        [1, "reference-schema", "URIReferenceDatatype", ["[0"], "A JSON Schema directive to bind a specific schema to its document instance."],
+        [1, "schema", "URIReferenceDatatype", ["[0"], "A JSON Schema directive to bind a specific schema to its document instance."],
         [2, "profile", "Profile", [], "Each OSCAL profile is defined by a profile element."]
       ]],
     ["Profile", "Record", [], "Each OSCAL profile is defined by a profile element.", [
@@ -70,7 +70,7 @@
         [7, "usage", "String", ["[0"], "Describes the purpose and use of a parameter."],
         [8, "constraints", "Constraints", ["[0"], "A formal or informal expression of a constraint or test."],
         [9, "guidelines", "Guidelines", ["[0"], "A prose statement that provides a recommendation for the use of a parameter."],
-        [10, "parameter-values", "Param-Values", ["[0"], "A parameter value or set of values."],
+        [10, "values", "Param-Values", ["[0"], "A parameter value or set of values."],
         [11, "select", "Parameter-selection", ["[0"], "Presenting a choice among alternatives."]
       ]],
     ["Constraints", "ArrayOf", ["{1", "*Parameter-constraint"], "", []],
@@ -399,7 +399,7 @@
         [7, "usage", "String", ["[0"], "Describes the purpose and use of a parameter."],
         [8, "constraints", "Constraints", ["[0"], "A formal or informal expression of a constraint or test."],
         [9, "guidelines", "Guidelines", ["[0"], "A prose statement that provides a recommendation for the use of a parameter."],
-        [10, "Parameter-values", "Param-Values", ["[0"], "A parameter value or set of values."],
+        [10, "values", "Param-Values", ["[0"], "A parameter value or set of values."],
         [11, "select", "Parameter-selection", ["[0"], "Presenting a choice among alternatives."],
         [12, "remarks", "Remarks", ["[0"], "Additional commentary about the containing object."]
       ]],

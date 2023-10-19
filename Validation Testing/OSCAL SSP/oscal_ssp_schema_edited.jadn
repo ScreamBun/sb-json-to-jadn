@@ -15,7 +15,7 @@
   },
   "types": [
     ["Root", "Record", [], "", [
-        [1, "schema-binding", "URIReferenceDatatype", ["[0"], "A JSON Schema directive to bind a specific schema to its document instance."],
+        [1, "schema", "URIReferenceDatatype", ["[0"], "A JSON Schema directive to bind a specific schema to its document instance."],
         [2, "system-security-plan", "System-security-plan", [], "A system security plan, such as those described in NIST SP 800-18."]
       ]],
     ["System-security-plan", "Record", [], "A system security plan, such as those described in NIST SP 800-18.", [
@@ -650,12 +650,12 @@
     ["URIReferenceDatatype", "String", [], "A URI Reference, either a URI or a relative-reference, formatted according to section 4.1 of RFC3986.", []],
     ["UUIDDatatype", "String", ["%^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[45][0-9A-Fa-f]{3}-[89ABab][0-9A-Fa-f]{3}-[0-9A-Fa-f]{12}$"], "A type 4 ('random' or 'pseudorandom') or type 5 UUID per RFC 4122.", []],
     ["Export", "Record", [], "Identifies content intended for external consumption, such as with leveraged organizations.", [
-        [1, "description", "String", ["[0", "]1"], "An implementation statement that describes the aspects of the control or control statement implementation that can be available to another system leveraging this system."],
+        [1, "description", "String", ["[1", "]1"], "An implementation statement that describes the aspects of the control or control statement implementation that can be available to another system leveraging this system."],
         [2, "props", "ArrayOf", ["*Property", "[0", "]0"], ""],
         [3, "links", "ArrayOf", ["*Link", "[0", "]0"], ""],
         [4, "provided", "ArrayOf", ["*Provided-control-implementation", "[0", "]0"], ""],
-        [5, "responsibility", "ArrayOf", ["*Control-implementation-responsibility", "[0", "]0"], ""],
-        [6, "remarks", "String", ["[0", "]1"], "Additional commentary about the containing object."]
+        [5, "responsibilities", "ArrayOf", ["*Control-implementation-responsibility", "[0", "]0"], ""],
+        [6, "remarks", "String", ["[0"], "Additional commentary about the containing object."]
       ]],
     ["Provided-control-implementation", "Record", [], "", [
         [1, "uuid", "UUIDDatatype", [], "A machine-oriented, globally unique identifier with cross-instance scope that can be used to reference this provided entry elsewhere in this or other OSCAL instances. The locally defined UUID of the provided entry can be used to reference the data item locally or globally (e.g., in an imported OSCAL instance). This UUID should be assigned per-subject, which means it should be consistently used to identify the same subject across revisions of the document."],
@@ -663,7 +663,7 @@
         [3, "props", "String", ["[0"], ""],
         [4, "links", "String", ["[0"], ""],
         [5, "responsible-roles", "ArrayOf", ["*Responsible-role", "[0"], ""],
-        [6, "remarks", "String", [], "Additional commentary about the containing object."]
+        [6, "remarks", "String", ["[0"], "Additional commentary about the containing object."]
       ]],
     ["Control-implementation-responsibility", "Record", [], "Describes a control implementation responsibility imposed on a leveraging system.", [
         [1, "description", "String", ["[1", "]1"], "An implementation statement that describes the aspects of the control or control statement implementation that a leveraging system must implement to satisfy the control provided by a leveraged system."],

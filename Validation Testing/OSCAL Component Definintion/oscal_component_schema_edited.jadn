@@ -16,7 +16,7 @@
 
   "types": [
     ["Root", "Record", [], "", [
-      [1, "schema-binding", "URIReferenceDatatype", ["[0"], "A JSON Schema directive to bind a specific schema to its document instance."],
+      [1, "schema", "URIReferenceDatatype", ["[0"], "A JSON Schema directive to bind a specific schema to its document instance."],
       [2, "component-definition", "Component-definition", [], "A collection of component descriptions, which may optionally be grouped by capability."]
     ]],
 

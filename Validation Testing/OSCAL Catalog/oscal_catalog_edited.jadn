@@ -16,7 +16,7 @@
 
   "types": [
     ["Root", "Record", [], "", [
-      [1, "schema-binding", "URIReferenceDatatype", ["[0"], "A JSON Schema directive to bind a specific schema to its document instance."],
+      [1, "schema", "URIReferenceDatatype", ["[0"], "A JSON Schema directive to bind a specific schema to its document instance."],
       [2, "catalog", "Catalog", [], "A structured, organized collection of control information."]
     ]],
 
@@ -86,7 +86,7 @@
       [7, "usage", "String", ["[0"], "Describes the purpose and use of a parameter."],
       [8, "constraints", "Constraints", ["[0"], "A formal or informal expression of a constraint or test."],
       [9, "guidelines", "Guidelines", ["[0"], "A prose statement that provides a recommendation for the use of a parameter."],
-      [10, "param-values", "Values", ["[0"], "A parameter value or set of values."],
+      [10, "values", "Values", ["[0"], "A parameter value or set of values."],
       [11, "select", "Parameter-selection", ["[0"], "Presenting a choice among alternatives."],
       [12, "remarks", "Remarks", ["[0"], "Additional commentary about the containing object."]
     ]],
