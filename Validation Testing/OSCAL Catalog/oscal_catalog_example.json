@@ -1,4 +1,5 @@
 {
+    "catalog":{
     "uuid": "74c8ba1e-5cd4-4ad1-bbfd-d888e2f6c724",
     "metadata": {
       "title": "Sample Security Catalog *for Demonstration* and Testing",
@@ -278,4 +279,5 @@
         ]
       }
     ]
+  }
 }

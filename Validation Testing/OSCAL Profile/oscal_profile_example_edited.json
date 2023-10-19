@@ -1,4 +1,5 @@
 {
+  "profile":{
     "uuid": "c0dc468c-934e-4fe9-b5bf-9fc63f5a2915",
     "metadata": {
       "title": "Sample Security Profile *for Demonstration* and Testing",
@@ -58,4 +59,5 @@
         }
       ]
     }
+  }
 }
