@@ -265,10 +265,14 @@
       [3, "description", "String", ["[0"], "An optional short summary of the resource used to indicate the purpose of the resource."],
       [4, "props", "Props", ["[0"], "An attribute, characteristic, or quality of the containing object expressed as a namespace qualified name/value pair."],
       [5, "document-ids", "Document-ids", ["[0"], "A document identifier qualified by an identifier scheme."],
-      [6, "citation", "Resource", ["[0"], "An optional citation consisting of end note text using structured markup."],
+      [6, "citation", "Citation", ["[0"], "An optional citation consisting of end note text using structured markup."],
       [7, "rlinks", "Rlinks", ["[0"], "A URL-based pointer to an external resource with an optional hash for verification and change detection."],
       [8, "base64", "Resource", ["[0"], "A resource encoded using the Base64 alphabet defined by RFC 2045."],
       [9, "remarks", "Remarks", ["[0"], "Additional commentary about the containing object."]
+    ]],
+
+    ["Citation", "Record", [], "A document identifier qualified by an identifier scheme.", [
+      [1, "text", "String", ["[0"], "Citation Text."]
     ]],
 
     ["Rlinks", "ArrayOf", ["{1", "*Rlink"], "", []],

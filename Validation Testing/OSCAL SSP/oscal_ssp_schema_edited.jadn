@@ -557,7 +557,7 @@
       ]],
     ["Set-parameter", "Record", [], "Identifies the parameter that will be set by the enclosed value.", [
         [1, "param-id", "TokenDatatype", [], "A human-oriented reference to a parameter within a control, who's catalog has been imported into the current implementation context."],
-        [2, "param-values", "Values", [], "A parameter value or set of values."],
+        [2, "values", "Values", [], "A parameter value or set of values."],
         [3, "remarks", "Remarks", ["[0"], "Additional commentary about the containing object."]
       ]],
     ["Values", "ArrayOf", ["{1", "*StringDatatype"], "", []],
@@ -597,7 +597,7 @@
         [7, "usage", "String", ["[0"], "Describes the purpose and use of a parameter."],
         [8, "constraints", "Constraints", ["[0"], "A formal or informal expression of a constraint or test."],
         [9, "guidelines", "Guidelines", ["[0"], "A prose statement that provides a recommendation for the use of a parameter."],
-        [10, "param-values", "Values", ["[0"], "A parameter value or set of values."],
+        [10, "values", "Values", ["[0"], "A parameter value or set of values."],
         [11, "select", "Parameter-selection", ["[0"], "Presenting a choice among alternatives."],
         [12, "remarks", "Remarks", ["[0"], "Additional commentary about the containing object."]
       ]],
