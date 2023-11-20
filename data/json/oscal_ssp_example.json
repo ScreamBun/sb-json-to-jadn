@@ -1,0 +1,89 @@
+{
+  "plan-of-action-and-milestones" : {
+    "uuid" : "1703062e-98d5-45c6-b9dc-37f9373a8268",
+    "metadata" : {
+      "title" : "IFA GoodRead System Security Plan with Components",
+      "published" : "2023-05-21T13:32:05-04:00",
+      "last-modified" : "2023-05-21T13:32:10-04:00",
+      "version" : "1.4",
+      "oscal-version" : "1.0.4",
+      "roles" : [ {
+        "id" : "owner",
+        "title" : "IFA GoodRead Owner"
+      }, {
+        "id" : "developer",
+        "title" : "IFA GoodRead Developer"
+      }, {
+        "id" : "system-engineer",
+        "title" : "IFA GoodRead System Engineer"
+      }, {
+        "id" : "public-affairs-office",
+        "title" : "IFA Public Affairs Office"
+      }, {
+        "id" : "customer-support-engineer",
+        "title" : "Awesome Cloud Customer Support Engineer"
+      }, {
+        "id" : "linux-support-engineer",
+        "title" : "RedHat Enterprise Linux Customer Support Engineer"
+      } ],
+      "parties" : [ {
+        "uuid" : "ba9c12bd-e5ef-46b6-95a2-4d8e7f864c1a",
+        "type" : "person",
+        "name" : "Owen Owner",
+        "member-of-organizations" : [ "3a675986-b4ff-4030-b178-e953c2e55d64" ]
+      }, {
+        "uuid" : "67c04291-dbf6-495a-a3ba-0011638acc94",
+        "type" : "person",
+        "name" : "Nikita Wootten",
+        "member-of-organizations" : [ "3a675986-b4ff-4030-b178-e953c2e55d64" ]
+      }, {
+        "uuid" : "4ba3f2b7-e894-48d7-b940-91c68661df55",
+        "type" : "person",
+        "name" : "A.J. Stein",
+        "member-of-organizations" : [ "3a675986-b4ff-4030-b178-e953c2e55d64" ]
+      }, {
+        "uuid" : "3a675986-b4ff-4030-b178-e953c2e55d64",
+        "type" : "organization",
+        "name" : "Important Federal Agency",
+        "short-name" : "IFA",
+        "links" : [ {
+          "href" : "https://www.ifa.gov",
+          "rel" : "website"
+        } ]
+      }, {
+        "uuid" : "62b64e9b-2b7d-41d2-bffe-fc558410774a",
+        "type" : "organization",
+        "name" : "AwesomeCloud Public Sector Engineering Support - United States",
+        "short-name" : "AC-PSES-US",
+        "links" : [ {
+          "href" : "https://awesomecloud.systems/public-sector/",
+          "rel" : "website"
+        } ]
+      }, {
+        "uuid" : "fc63163f-aaf9-495a-8849-10023df63edf",
+        "type" : "organization",
+        "name" : "RedHat Public Sector Solutions",
+        "short-name" : "RedHat",
+        "links" : [ {
+          "href" : "https://www.redhat.com/en/solutions/public-sector"
+        } ]
+      } ],
+      "responsible-parties" : [ {
+        "role-id" : "owner",
+        "party-uuids" : [ "ba9c12bd-e5ef-46b6-95a2-4d8e7f864c1a" ]
+      }, {
+        "role-id" : "developer",
+        "party-uuids" : [ "67c04291-dbf6-495a-a3ba-0011638acc94" ]
+      }, {
+        "role-id" : "system-engineer",
+        "party-uuids" : [ "4ba3f2b7-e894-48d7-b940-91c68661df55" ]
+      }, {
+        "role-id" : "customer-support-engineer",
+        "party-uuids" : [ "62b64e9b-2b7d-41d2-bffe-fc558410774a" ]
+      }, {
+        "role-id" : "linux-support-engineer",
+        "party-uuids" : [ "fc63163f-aaf9-495a-8849-10023df63edf" ]
+      } ]
+    }
+  }
+}
